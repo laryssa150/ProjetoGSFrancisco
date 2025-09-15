@@ -1,6 +1,6 @@
 /* Estilizando o body */
 body {
-  background-color: #e3f2fd;
+  background-color: #FFFFFF;
   min-height: 100vh;
   margin: 0;
   display: flex;
@@ -17,7 +17,7 @@ body {
 
 /* Menu principal */
 .menu-principal {
-  background-color: white;
+  background-color: #307063;
   border-radius: 10px;
   padding: 15px 20px;
   font-size: 15px;
@@ -41,7 +41,7 @@ body {
 
 /* Botão de contato */
 .contato {
-  background-color: #f48fb1; /* Rosa suave */
+  background-color: #ebc265; /* dourado suave */
   color: white;
   border: none;
   border-radius: 5px;
@@ -53,7 +53,7 @@ body {
 }
 
 .contato:hover {
-  background-color: #ec407a; /* Rosa mais escuro no hover */
+  background-color: #9c7e38; /* dourado mais escuro no hover */
 }
 
 /* Container de contato */
@@ -71,7 +71,7 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #F2EDE4;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
@@ -119,15 +119,19 @@ body {
   margin-top: 15px;
   width: 100%;
   padding: 10px;
-  background-color: #0299DE;
+  background-color: #740B0D;
   font-size: 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
+.envia-form{
+  color: white;
+}
+
 .envia-form:hover {
-  background-color: #0059ff;
+  background-color: #c00b0e;
 }
 
 /* Responsividade para telas menores */
